@@ -1,0 +1,3 @@
+FROM github/ColinChartier/layer-kubernetes-base/Layerfile@130d951b92c9
+
+RUN kubeadm init
