@@ -1,3 +1,5 @@
+# inherit from a github repository
 FROM github/ColinChartier/layer-kubernetes-base/Layerfile@130d951b92c9
 
+# set up kubernetes cluster (persistently)
 RUN kubeadm init
